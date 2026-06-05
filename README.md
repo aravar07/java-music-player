@@ -1,18 +1,75 @@
-## Getting Started
+# Java Music Player
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A simple console-based music player built in Java using the Java Sound API.
 
-## Folder Structure
+## Features
 
-The workspace contains two folders by default, where:
+* Play audio
+* Stop audio
+* Reset audio to the beginning
+* Quit the application
+* Exception handling for invalid or unsupported audio files
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Technologies Used
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+* Java
+* Scanner
+* Java Sound API (`Clip`, `AudioInputStream`)
+* Exception Handling
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Requirements
 
-## Dependency Management
+* Java JDK 17 or later
+* A `.wav` audio file
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## How to Run
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/java-music-player.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd java-music-player
+```
+
+3. Compile the program:
+
+```bash
+javac src/MusicPlayer.java
+```
+
+4. Run the program:
+
+```bash
+java -cp src MusicPlayer
+```
+
+5. When prompted, enter the path to a `.wav` file on your computer.
+
+## Project Structure
+
+```text
+java-music-player/
+├── src/
+│   └── MusicPlayer.java
+├── .gitignore
+└── README.md
+```
+
+## Learning Objectives
+
+This project was created to practice:
+
+* Exception Handling
+* File Handling
+* User Input with Scanner
+* Loops and Switch Statements
+* Working with Java Libraries
+
+## Author
+
+Arav Aryan
